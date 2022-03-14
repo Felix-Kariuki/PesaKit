@@ -79,7 +79,6 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginTop="35dp"
-                    android:layout_marginEnd="8dp"
                     android:textAlignment="center"
                     app:cpb_background_progressbar_color="@color/colorGrey"
                     app:cpb_background_progressbar_width="1dp"
@@ -89,6 +88,13 @@
                     app:cpb_progressbar_width="4dp"
                     app:cpb_round_border="false"
                     app:cpb_start_angle="0" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:src="@color/colorLightGreen"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -100,7 +106,7 @@
                     android:layout_centerVertical="true"
                     android:text="80"
                     android:id="@+id/tvHealth"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,7 +117,7 @@
                     android:layout_centerHorizontal="true"
                     android:text="Good"
                     android:layout_below="@+id/tvHealth"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="22sp" />
             </RelativeLayout>
 
@@ -159,6 +165,12 @@
                         app:cpb_progressbar_width="4dp"
                         app:cpb_round_border="false"
                         app:cpb_start_angle="0" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
+                        android:src="@color/colorGrey"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -188,7 +200,6 @@
                         android:layout_width="80dp"
                         android:layout_height="800dp"
                         android:layout_marginTop="35dp"
-                        android:layout_marginEnd="8dp"
                         app:cpb_background_progressbar_color="@color/colorGrey"
                         app:cpb_background_progressbar_width="1dp"
                         app:cpb_progress="50"
@@ -197,6 +208,12 @@
                         app:cpb_progressbar_width="4dp"
                         app:cpb_round_border="false"
                         app:cpb_start_angle="0" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
+                        android:src="@color/colorGrey"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -220,14 +237,14 @@
                 <RelativeLayout
                     android:id="@+id/rlCustomers"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp">
 
                     <com.mikhaellopez.circularprogressbar.CircularProgressBar
                         android:id="@+id/circularCustomers"
                         android:layout_width="80dp"
                         android:layout_height="800dp"
                         android:layout_marginTop="35dp"
-                        android:layout_marginEnd="8dp"
                         app:cpb_background_progressbar_color="@color/colorGrey"
                         app:cpb_background_progressbar_width="1dp"
                         app:cpb_progress="65"
@@ -237,6 +254,12 @@
                         app:cpb_round_border="false"
                         app:cpb_start_angle="0" />
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
+                        android:src="@color/colorGrey"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -257,7 +280,9 @@
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp">
 
 
                     <com.mikhaellopez.circularprogressbar.CircularProgressBar
@@ -265,7 +290,6 @@
                         android:layout_width="80dp"
                         android:layout_height="800dp"
                         android:layout_marginTop="35dp"
-                        android:layout_marginEnd="8dp"
                         app:cpb_background_progressbar_color="@color/colorGrey"
                         app:cpb_background_progressbar_width="1dp"
                         app:cpb_progress="40"
@@ -275,6 +299,12 @@
                         app:cpb_round_border="false"
                         app:cpb_start_angle="0" />
 
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp"
+                        android:src="@color/colorGrey" />
 
                     <TextView
                         android:layout_width="wrap_content"
