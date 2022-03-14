@@ -48,4 +48,7 @@ dependencies {
 
     //circular progress bar
     implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
+
+    //circle image view
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
